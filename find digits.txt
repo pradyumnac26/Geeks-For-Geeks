@@ -1,0 +1,24 @@
+def findDigits(n):
+    z=str(n)
+    count=0
+    for i in z:
+        if int(i)!=0 and n%int(i)==0:
+            count+=1
+    return count
+
+
+////////////////
+int findDigits(int n) {
+  int no=n;
+    int rem;
+    int counter=0;
+    while(no>0){
+        rem=no%10;
+            if(rem!=0 && n%rem==0){
+                counter++;
+            }
+        no=no/10;
+    }
+    return counter;
+}
+

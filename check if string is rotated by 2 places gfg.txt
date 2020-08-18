@@ -1,0 +1,8 @@
+t=int(input())
+for _ in range(t):
+    s=input()
+    b=input()
+    if b==s[-2:]+s[:-2] or b==s[2:]+s[:2]:
+        print(1)
+    else:
+        print(0)
