@@ -58,7 +58,7 @@ while t>0:
         else:
             count = 1
         
-        if count > maxc:
+        if count > maxc
                 maxc = count
         
     t -= 1
